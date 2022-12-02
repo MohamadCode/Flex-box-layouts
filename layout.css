@@ -7,11 +7,17 @@
 .container {
     border: 4px solid lightgray;
    padding: 24px 24px 0 24px;
-    display: flex;
-justify-content: space-between;
+
 
 }
 
+.row{
+    width: 100%;
+    max-width: 600px;
+    margin: 0 auto;
+display: flex;
+justify-content: space-between;
+}
 
 .box {
     border: 4px solid lightgray;
@@ -23,6 +29,15 @@ justify-content: space-between;
     margin-bottom: 30px;
 
 
+}
+.box-tiny {
+    width: 30%;
+    height: 50px;
+}
+
+.tiny-wrapper {
+    display: flex;
+    justify-content: space-between;
 }
 
 .box-wrapper {
